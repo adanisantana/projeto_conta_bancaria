@@ -2,6 +2,8 @@ package conta;
 import java.util.Scanner;
 import conta.model.Conta;
 import conta.util.Cores;
+import conta.model.ContaPoupanca;
+import conta.model.ContaCorrente;
 
 public class Menu {
 
@@ -16,6 +18,18 @@ public class Menu {
 		c1.visualizar();
 		
 		
+		//Teste da Conta Corrente
+		ContaCorrente c2 = new ContaCorrente(2,456,1,"Zilda",1500.0f,200.0f,0.3f);
+		c2.visualizar();
+		c1.sacar(50);
+		c2.visualizar();
+		
+		ContaPoupanca cp1 = new ContaPoupanca(3,675,2,"Maria",5000.0f,0);
+		cp1.visualizar();
+		c1.depositar(400);
+		
+		
+		
 		Scanner leia = new Scanner(System.in);
 		
 		int opcao;
@@ -25,7 +39,7 @@ public class Menu {
 			System.out.println(Cores.TEXT_WHITE+ Cores.ANSI_BLUE_BACKGROUND);
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
-			System.out.println("                BANCO DO BRAZIL COM Z                ");
+			System.out.println("                BANCO PROSPERIDADE                   ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
