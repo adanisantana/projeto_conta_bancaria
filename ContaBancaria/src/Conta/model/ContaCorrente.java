@@ -4,10 +4,9 @@ public class ContaCorrente extends Conta {
 	float limite;
 	float taxaDeManutencao;
 	
-	public ContaCorrente(int numero, int agencia, int tipo, String titular,float saldo, float limite,float taxaDeManutencao) {
+	public ContaCorrente(int numero, int agencia, int tipo, String titular,float saldo, float limite) {
 		super(numero, agencia, tipo, titular, saldo);
 		this.limite = limite;
-		this.taxaDeManutencao = taxaDeManutencao;
 		
 	}
 	 @Override

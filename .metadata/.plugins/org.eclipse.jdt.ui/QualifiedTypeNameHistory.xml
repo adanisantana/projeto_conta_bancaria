@@ -5,4 +5,6 @@
     <fullyQualifiedTypeName name="conta.model.ContaCorrente"/>
     <fullyQualifiedTypeName name="conta.model.Conta"/>
     <fullyQualifiedTypeName name="conta.repository.ContaRepository"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="conta.controller.ContaController"/>
 </qualifiedTypeNameHistroy>
